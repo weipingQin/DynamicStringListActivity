@@ -1,0 +1,3 @@
+# DynamicStringListActivity
+可以动态生成List布局文件。
+只需要将变化的文字写入到arrays.xml文件中即可
