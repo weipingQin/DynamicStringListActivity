@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/faqitem_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/question_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/help_icon"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text=""
+            android:textColor="@color/orange"
+            android:textSize="16sp" />
+
+        <!-- android:background="@drawable/faq2" -->
+
+        <TextView
+            android:id="@+id/quesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/question_icon"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@+id/question_icon"
+            android:background="@null"
+            android:padding="2dp"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/quesion"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="15dp"
+            android:background="@drawable/help_dialog"
+            android:text=""
+            android:textColor="@color/text_grey"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:layout_below="@id/faqitem_top"
+        android:background="@android:color/white" />
+
+</RelativeLayout>

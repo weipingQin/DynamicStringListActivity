@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string-array name="question_list">
+        <item>扣减最后一点体力时,人物技能是否能发动? </item>
+        <item>吕布攻击陆逊,陆逊手里剩下一张闪? </item>
+        <item>用蛇矛技能打出的两张牌当杀时,花色怎么算? </item>
+        <item>只剩两名玩家对决时,能否吃桃? </item>
+        <item>曹操被借刀杀人砍伤,拿哪张牌? </item>
+        <item>乐不思蜀可以对自己用吗? </item>
+    </string-array>
+    <string-array name="answer_list">
+        <item>除非有特别说明,否则不能,当然,如果用桃救回来就可以发动(因为已扣减了体力). </item>
+        <item>陆逊必须一次同时打出两张闪,不能出了一张闪后连营摸牌再出闪. </item>
+        <item>两张都是红色时该牌便是红色,两张都是黑色时该牌便是黑色,一红一黑时,该牌无色.</item>
+        <item>能. </item>
+        <item>只拿借刀杀人. </item>
+        <item>可以是可以... </item>
+    </string-array>
+
+</resources>
